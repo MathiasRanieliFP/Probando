@@ -7,7 +7,7 @@ export default {
   title: 'Components/Anchor',
 } as Meta;
 
-export const Base = (props: AnchorProps) => {
+export const Basic = (props: AnchorProps) => {
     return (
       <>
         <Anchor {...props} color="azul">

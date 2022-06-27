@@ -1,7 +1,5 @@
 import { ReactNode } from "react";
-
-
-export type AnchorVariant = "underlined" | "basic"; 
+ 
 
 export type AnchorColor =
     | "azul"
@@ -13,7 +11,6 @@ export type AnchorColor =
 export type AnchorProps = {
 href?:string;
 underline?:boolean;
-variant?:AnchorVariant;
 color?:AnchorColor;
 children?:ReactNode;
 }

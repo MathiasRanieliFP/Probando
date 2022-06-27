@@ -11,6 +11,15 @@ const getColor = (color?:AnchorColor)=>{
     }
 }
 
-export const AnchorStyle = styled.anchor<AnchorProps>`
-
+export const AnchorStyle = styled.a<AnchorProps>`
+text-decoration: ${(props)=>{
+ 
+    if(props.underline){
+        "underline"
+    }
+    else{
+        "none"
+    }
+}
+}
 `

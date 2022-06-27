@@ -4,7 +4,6 @@ import { AnchorStyle } from './Styles';
 
 export const Anchor = ({
     href,
-    variant,
     children,
     color
   }: AnchorProps, 
@@ -14,14 +13,6 @@ export const Anchor = ({
         <AnchorStyle
           ref={ref}
           href={href}
-          text-decoration={
-            variant
-            ? 'underlined'
-            : 'underline'
-            ? 'basic'
-            : 'none'
-          }
-        
           color={
                 color
                 ? 'azul'
